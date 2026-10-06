@@ -1,0 +1,26 @@
+in the def function return must  be inside of the function
+
+
+def double(n):
+ result =n*2
+return result;
+
+x= double(6)
+print(x)
+
+
+OUTPUT--- 12 
+
+
+In python , indentation decides which block a line belongs to -- not its position in the file 
+
+COMPARED TO C :
+
+int double(int n) {
+    int result = n * 2;
+}
+return result;            // outside the braces -> error
+
+A name lives inside the block where it  was created and dies when that block ends 
+
+
